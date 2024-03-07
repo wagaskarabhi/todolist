@@ -1,0 +1,74 @@
+/* .todoitems {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+  align-items: center;
+}
+.todoitems-container {
+  display: flex;
+}
+.todoitems-text {
+  padding-left: 16px;
+  color: #404040;
+  font-size: 22px;
+}
+.todoitem-cross-icon {
+  cursor: pointer;
+  padding-right: 25px;
+  width: 40px;
+  height: 40px;
+}
+.line-through {
+  text-decoration: line-through solid #adadad 3px;
+} */
+
+.todoitems {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  align-items: center;
+  /* background: #f5f5f5;
+  border-radius: 5px; */
+  border: 2px solid #3498db; /* Add a border for a defined boundary */
+  border-radius: 25px; /* Rounded corners */
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.todoitems-container {
+  display: flex;
+  align-items: center;
+}
+
+.todoitems-text {
+  padding-left: 16px;
+  color: #404040;
+  font-size: 22px;
+}
+
+.todoitem-cross-icon {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  transition: transform 0.2s;
+  padding-right: 10px;
+}
+
+.todoitems:hover {
+  background: #ebebeb;
+}
+
+.todoitems-text:hover {
+  color: #002765;
+}
+
+.todoitem-cross-icon:hover {
+  transform: scale(1.2);
+}
+
+.line-through {
+  text-decoration: line-through solid #adadad 3px;
+}
+.tick-not {
+  padding-left: 10px;
+}
